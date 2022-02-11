@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Filter</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<body>
+<div id ="container">
+<h1>Image Filter</h1>
+  <div id="canva">
+    <canvas id="can">
+    </canvas>
+  </div>
+<p id= "main">
+  <input type="file" id = "finput" accept ="image/*" multiple = false>
+ <input id = "button" type="button" value = "Upload" onclick ="upload()">  
+</p>
+<p>
+<input class="gray" type="button" value="GrayScale" onclick="makeGray()">
+<input class="red" type="button" value="Red" onclick="makeRed()">
+<input class="green" type="button" value="Green" onclick="makeGreen()"> 
+<input class="reset" type="button" value="Reset" onclick="upload()"> 
+</p>
+   <marquee behavior= "alternate">By Rahul SK</marquee>
+   <footer>
+    <p><small>* Right click on the image and click save image as, to save the image to your local machine</small></p>
+    <p><strong>Reference:</strong></p>
+    <p>Duke Learn to program</p>
+    </footer>
+</div>
+ 
+</body>
+<!-- partial -->
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>
